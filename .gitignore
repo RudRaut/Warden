@@ -1,0 +1,70 @@
+# Node.js
+node_modules/
+backend/node_modules/
+frontend/node_modules/
+.npm
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+bun.lockb
+
+# Next.js
+frontend/.next/
+frontend/out/
+
+# Environment Variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+backend/.env
+frontend/.env
+frontend/.env.local
+
+# Hyperledger Fabric (Critical to ignore certs, keys, and ledgers)
+organizations/
+channel-artifacts/
+data/
+system-genesis.block
+*.block
+*.tx
+*.tar.gz
+*.pb
+warden/
+backend/wallet/
+chaincode/vendor/
+*.pem
+*.key
+*.crt
+
+# C++ Build Artifacts
+bin/
+*.o
+*.out
+
+# Logs
+logs/
+*.log
+docker_out.txt
+docker_pid.txt
+
+# Editor / OS
+.vscode/
+.DS_Store
+
+# Temporary / Research / Documentation artifacts
+agg/
+hopeitworks.txt
+research.txt
+structure.txt
+structure2.txt
+implementation_plan_aggregator.md
+implementation.md
+planning.md
+architecture.md
+warden_docs.zip
+walkthrough.md
+setup.txt
+system.md
+fabric_commands.md

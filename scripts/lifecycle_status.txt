@@ -1,0 +1,10 @@
+1. Query Installed:
+Installed chaincodes on peer:
+Package ID: warden_1.0:d0457e1fc9b9f7272aa6711807dd160bfac75925bfbeec649f64b49149cec3c7, Label: warden_1.0
+2. Query Approved (sequence 1):
+Approved chaincode definition for chaincode 'warden' on channel 'warden2':
+sequence: 1, version: 1.0, init-required: false, package-id: warden_1.0:d0457e1fc9b9f7272aa6711807dd160bfac75925bfbeec649f64b49149cec3c7, endorsement plugin: escc, validation plugin: vscc
+3. Check Commit Readiness:
+4. Query Committed:
+Committed chaincode definition for chaincode 'warden' on channel 'warden2':
+Version: 1.0, Sequence: 1, Endorsement Plugin: escc, Validation Plugin: vscc, Approvals: [Org1MSP: true]
